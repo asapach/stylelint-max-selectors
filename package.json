@@ -1,0 +1,27 @@
+{
+  "name": "stylelint-max-selectors",
+  "version": "0.0.0",
+  "description": "Limit the number of selectors in a stylesheet",
+  "keywords": [
+    "stylelint-plugin",
+    "selectors",
+    "legacy"
+  ],
+  "main": "lib/index.js",
+  "author": "Aliaksei Sapach <dreamsonic@tut.by>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asapach/stylelint-max-selectors.git"
+  },
+  "devDependencies": {
+    "eslint": "^4.4.1",
+    "eslint-config-stylelint": "^7.0.0"
+  },
+  "dependencies": {
+    "stylelint": "^8.0.0"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  }
+}
