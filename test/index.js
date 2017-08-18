@@ -16,11 +16,11 @@ testRule(maxSelectors.rule, {
   reject: [
     {
       code: ".foo, .bar, .baz {}",
-      message: `Expected no more than 2 selectors (${maxSelectors.ruleName})`
+      message: `Expected no more than 2 selectors, got 3 (${maxSelectors.ruleName})`
     },
     {
       code: ".foo {} .bar {} .baz {}",
-      message: `Expected no more than 2 selectors (${maxSelectors.ruleName})`
+      message: `Expected no more than 2 selectors, got 3 (${maxSelectors.ruleName})`
     },
   ],
 });
