@@ -1,6 +1,6 @@
 {
   "name": "stylelint-max-selectors",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Limit the number of selectors in a stylesheet",
   "keywords": [
     "stylelint-plugin",
