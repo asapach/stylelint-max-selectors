@@ -1,5 +1,7 @@
 # stylelint-max-selectors
 
+[![Build Status](https://travis-ci.org/asapach/stylelint-max-selectors.svg?branch=master)](https://travis-ci.org/asapach/stylelint-max-selectors)
+
 A [stylelint](https://github.com/stylelint/stylelint) plugin that enforces maximum selector count for a stylesheet.
 Useful if you need to support old IE (<IE10) which has a [limit of 4095 selectors](https://blogs.msdn.microsoft.com/ieinternals/2011/05/14/stylesheet-limits-in-internet-explorer/)
 or just for performance reasons.
