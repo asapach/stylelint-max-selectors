@@ -20,7 +20,7 @@
     "stylelint-test-rule-tape": "^0.2.0"
   },
   "dependencies": {
-    "stylelint": "^9.0.0"
+    "stylelint": "^10.0.0"
   },
   "scripts": {
     "lint": "eslint .",
