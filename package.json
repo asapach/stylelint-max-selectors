@@ -15,12 +15,12 @@
     "url": "git+https://github.com/asapach/stylelint-max-selectors.git"
   },
   "devDependencies": {
-    "eslint": "^5.11.1",
-    "eslint-config-stylelint": "^11.0.0",
+    "eslint": "^6",
+    "eslint-config-stylelint": "^11.1.0",
     "stylelint-test-rule-tape": "^0.2.0"
   },
   "dependencies": {
-    "stylelint": "^10.0.0"
+    "stylelint": ">=10"
   },
   "scripts": {
     "lint": "eslint .",
